@@ -60,12 +60,11 @@ GET http://localhost:3000/api/class/
 POST http://localhost:3000/api/class/ 
 ```
 
-```
-JSON
+```json
 {
-  "name": "Tuma A",
-  "students": "{id: 5b06cf0c6d0fdb7b6f876003}",
-  "teacher": "Loren",
+ 	"name": "Tuma A",
+  	"students": "{id: 5b06cf0c6d0fdb7b6f876003}",
+  	"teacher": "Loren",
 }
 ```
 
@@ -73,12 +72,11 @@ JSON
 PUT http://localhost:3000/api/class/5b06d2cd4a26310190be13c5
 ```
 
-```
-JSON
+```json
 {
-  "name": "Tuma A",
-  "students": "{id: 5b06cf0c6d0fdb7b6f876003}",
-  "teacher": "Stella",
+  	"name": "Tuma A",
+  	"students": "{id: 5b06cf0c6d0fdb7b6f876003}",
+  	"teacher": "Stella",
 }
 ```
 
